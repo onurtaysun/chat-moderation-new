@@ -75,4 +75,4 @@ Same 4,000-message test set for all models. Latency: mean of 4,000 single-messag
 
 ## AI usage
 
-Claude (Anthropic) drafted the first version of the code; I ran the training and measurements myself.
+Claude (Anthropic) drafted the first version of the code and the slides and helped me debug; I ran the training and measurements myself.
