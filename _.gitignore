@@ -1,0 +1,8 @@
+artifacts/
+__pycache__/
+*.pt
+*.safetensors
+*.bin
+*.npy
+*.joblib
+train.csv

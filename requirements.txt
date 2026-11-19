@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+gensim>=4.3.3
+scikit-learn
+pandas
+numpy
+joblib
+gradio
