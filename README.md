@@ -55,12 +55,6 @@ Everything runs on CPU in one Python process (`app.py`).
 
 ## Results
 
-Model	Macro-F1	Size (MB)	Latency (ms)
-TF-IDF + LogReg (baseline)	0.8221	3.9	0.97
-word2vec + MLP	0.7526	10.7	0.66
-DistilBERT FP32	0.8743	267.8	88.2
-DistilBERT INT8 (quantized)	0.8875	138.7	46.12
-
 See `artifacts/results.md` (produced by `train.py`; every number comes from your own run).
 
 ## AI usage
