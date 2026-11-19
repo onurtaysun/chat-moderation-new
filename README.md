@@ -28,7 +28,7 @@ python train.py --csv train.csv
 ```
 
 This writes `artifacts/` (models, `results.json`, `results.md`). Weights are **not** in this repo:
-download them from LINK_TO_HF_HUB_OR_DRIVE and unzip as `artifacts/`, or just re-run `train.py`.
+download them from https://drive.google.com/file/d/1S6fp7uzVwHrkhtDUwf0bP3uNY5gsiM2P/view?usp=drive_link and unzip as `artifacts/`, or just re-run `train.py`.
 
 ## Run the app (single command)
 
@@ -54,6 +54,12 @@ user message
 Everything runs on CPU in one Python process (`app.py`).
 
 ## Results
+
+Model	Macro-F1	Size (MB)	Latency (ms)
+TF-IDF + LogReg (baseline)	0.8221	3.9	0.97
+word2vec + MLP	0.7526	10.7	0.66
+DistilBERT FP32	0.8743	267.8	88.2
+DistilBERT INT8 (quantized)	0.8875	138.7	46.12
 
 See `artifacts/results.md` (produced by `train.py`; every number comes from your own run).
 
